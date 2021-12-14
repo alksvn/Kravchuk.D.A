@@ -108,23 +108,31 @@ def p7():
     p = int(scrtxt7_1.get())
     n = int(txt7.get())
     x = int(scrtxt7_2.get())
+    m = int(scrtxt7_3.get())
     if n != 0:
         if n > p:
             x += 1
             scrtxt7_2.delete(0,'end')
             scrtxt7_2.insert(0,x)
+        else:
+            if x > m:
+                scrtxt7_3.delete(0,"end")
+                scrtxt7_3.insert(0,x)
+            scrtxt7_2.delete(0,"end")
+            scrtxt7_2.insert(0,"0")
         p = n
         scrtxt7_1.delete(0,'end')
         scrtxt7_1.insert(0,p)
     else:
         scrtxt7.delete(1.26,END)
-        scrtxt7.insert(INSERT,"Чисел больше предыдущего ")
-        scrtxt7.insert(INSERT,x)
+        scrtxt7.insert(INSERT,m-1)
         scrtxt7_1.delete(0,'end')
         scrtxt7_2.delete(0,'end')
         scrtxt7_1.insert(0,"0")
         scrtxt7_2.insert(0,"0")    
     txt7.delete(0,END)  
+
+          
 
 def p8():
     n = int(txt8.get())
