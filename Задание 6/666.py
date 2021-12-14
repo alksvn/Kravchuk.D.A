@@ -275,6 +275,8 @@ scrtxt7_1.grid(column=1, row=5)
 scrtxt7_2.grid(column=2, row=5)
 scrtxt7_1.insert (INSERT,'0')
 scrtxt7_2.insert (INSERT,'0')
+scrtxt7_3 = Entry(tab7, width = 10)
+scrtxt7_3.insert(INSERT,"0")
 
 lbl8 = Label(tab8, text='Дана последовательность натуральных чисел, завершающаяся числом 0.')
 lbl8.grid(column=0, row=0, sticky=W)
