@@ -12,6 +12,6 @@ public class zadanie1 {
             if ((array[i] < 0 && array[i - 1] > 0) || (array[i] > 0 && array[i - 1] < 0)) {
                 a++;
             }
-        System.out.println("\nÇíàê ìåíÿåòñÿ: "  + a + " ðàçà/ðàç.");
+        System.out.println("\nЗнак меняется: "  + a + " раза/раз.");
 	}
 }
