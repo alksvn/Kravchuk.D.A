@@ -39,7 +39,7 @@ public class Car {
 	}
 	
 	public String toString() {
-		return "Свойства продажи автомобиля:\n" + "Марка автомобиля - " + this.modelCar + "\nГод выпуска - " + this.release + "\nЦена автомобиля - " + this.price + "\nКомплектация - " + this.equipment + "\nСтрана производитель - " + this.country + "\nДата продажи - " + this.dataOfSale + "\nФИО покупателя - " + this.FIObuyer;     
+		return "РЎРІРѕР№СЃС‚РІР° РїСЂРѕРґР°Р¶Рё Р°РІС‚РѕРјРѕР±РёР»СЏ:\n" + "РњР°СЂРєР° Р°РІС‚РѕРјРѕР±РёР»СЏ - " + this.modelCar + "\nР“РѕРґ РІС‹РїСѓСЃРєР° - " + this.release + "\nР¦РµРЅР° Р°РІС‚РѕРјРѕР±РёР»СЏ - " + this.price + "\nРљРѕРјРїР»РµРєС‚Р°С†РёСЏ - " + this.equipment + "\nРЎС‚СЂР°РЅР° РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ - " + this.country + "\nР”Р°С‚Р° РїСЂРѕРґР°Р¶Рё - " + this.dataOfSale + "\nР¤РРћ РїРѕРєСѓРїР°С‚РµР»СЏ - " + this.FIObuyer;     
 	}
 
 }
