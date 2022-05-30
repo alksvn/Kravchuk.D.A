@@ -5,9 +5,9 @@ public class Zadanie3 {
 		car.setRelease(2017);
 		car.setPrice(7000000);
 		car.setEquipment("M4 Competition");
-		car.setCountry("Германия");
+		car.setCountry("Р“РµСЂРјР°РЅРёСЏ");
 		car.setDataOfSale("8.05.2018");
-		car.setFIObuyer("Иванов Иван Иванович");
+		car.setFIObuyer("РРІР°РЅРѕРІ РРІР°РЅ РРІР°РЅРѕРІРёС‡");
 		
 		System.out.println(car.toString());
 	}
