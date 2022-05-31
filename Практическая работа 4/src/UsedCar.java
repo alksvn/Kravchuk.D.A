@@ -1,8 +1,8 @@
 
 public class UsedCar extends Car {
-	private String degreeOfPreservation;//степеньСохранности
-	private String FIOowner;//ФИОвладельца
-	private int mileage;//пробегАвтомобиля
+	private String degreeOfPreservation;//Г±ГІГҐГЇГҐГ­ГјГ‘Г®ГµГ°Г Г­Г­Г®Г±ГІГЁ
+	private String FIOowner;//Г”Г€ГЋГўГ«Г Г¤ГҐГ«ГјГ¶Г 
+	private int mileage;//ГЇГ°Г®ГЎГҐГЈГЂГўГІГ®Г¬Г®ГЎГЁГ«Гї
 	
 	public UsedCar(String modelCar, int release, int price, String equipment, String country, String dataOfSale, String FIObuyer, String degreeOfPreservation, String FIOowner, int mileage) {
 		super(modelCar, release, price, equipment, country, dataOfSale,FIObuyer);
@@ -34,6 +34,6 @@ public class UsedCar extends Car {
 	
 	public String toString()
     {
-        return super.toString() + "\nCтепень сохранности - " + degreeOfPreservation + "\nФИО владельца - " + FIOowner + "\nПробег - " + mileage;
+        return super.toString() + "\nCС‚РµРїРµРЅСЊ СЃРѕС…СЂР°РЅРЅРѕСЃС‚Рё - " + degreeOfPreservation + "\nР¤РРћ РІР»Р°РґРµР»СЊС†Р° - " + FIOowner + "\nРџСЂРѕР±РµРі - " + mileage;
     }
 }
