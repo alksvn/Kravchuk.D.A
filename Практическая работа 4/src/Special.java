@@ -34,7 +34,7 @@ public class Special extends Car {
 	
 	public String toString()
     {
-        return super.toString() + "\nВид - " + type + "\nМасса - " + mass + "\nГабаритные размеры - " + dimensions;
+        return super.toString() + "\nР’РёРґ - " + type + "\nРњР°СЃСЃР° - " + mass + "\nР“Р°Р±Р°СЂРёС‚РЅС‹Рµ СЂР°Р·РјРµСЂС‹ - " + dimensions;
     }
 
 }
