@@ -34,7 +34,7 @@ public class Sport extends Car {
 	
 	public String toString()
     {
-        return super.toString() + "\nКол-во секунд до набора скорости - " + sek + "\nОбъем двигателя - " + volume + "\nМощность - " + power;
+        return super.toString() + "\nРљРѕР»-РІРѕ СЃРµРєСѓРЅРґ РґРѕ РЅР°Р±РѕСЂР° СЃРєРѕСЂРѕСЃС‚Рё - " + sek + "\nРћР±СЉРµРј РґРІРёРіР°С‚РµР»СЏ - " + volume + "\nРњРѕС‰РЅРѕСЃС‚СЊ - " + power;
     }
 
 }
